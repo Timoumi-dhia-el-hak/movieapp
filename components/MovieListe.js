@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import MovieCartItem from './MovieCartItem'
 import StarRatingComponent from 'react-star-rating-component'
+import Spiner from '../HOC/Spinner';
 
 
-export default class MovieListe extends Component {
+ class MovieListe extends Component {
   constructor(props){
       super(props)
       this.state={
@@ -103,3 +104,5 @@ export default class MovieListe extends Component {
         )
     }
 }
+
+export default  MovieListe;

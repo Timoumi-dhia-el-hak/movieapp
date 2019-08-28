@@ -7,9 +7,9 @@ import MovieContainer from "./components/MovieContainer";
 class App extends Component {
   render() {
     return (
-      <div>
+     
        <MovieContainer/> 
-      </div>
+  
     );
   }
 }
